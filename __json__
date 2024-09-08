@@ -1,0 +1,26 @@
+{
+    "test_profiler\\.gitignore": {
+        "description": "Git ignore file for ignoring files and folders",
+        "dependencies": {},
+        "exposes": []
+    },
+    "test_profiler\\index.html": {
+        "description": "A basic HTML file that displays 'Hello World'",
+        "dependencies": {},
+        "exposes": []
+    },
+    "test_profiler\\README.md": {
+        "description": "README file containing basic documentation and how to run guide.",
+        "dependencies": {},
+        "exposes": []
+    },
+    "test_profiler\\__json__": {
+        "description": "defines project file metadata",
+        "dependencies": {},
+        "exposes": [
+            "index.html",
+            "README.md",
+            ".gitignore"
+        ]
+    }
+}
